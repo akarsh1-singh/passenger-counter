@@ -1,0 +1,109 @@
+*{
+   margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+#main{
+    height: 100%;
+    width:100%;
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1466338323166-f93e7299d3dd?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    /* filter: blur(8px); */
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color:#412d2d6c; 
+    position: absolute;
+}
+#counter{
+    top: 30%;
+    left: 38%;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color:black;
+    background-color: white;
+}
+#part1{
+    margin-bottom: 20px;
+}
+
+#part2{
+    margin-bottom: 20px;
+}
+#count-el{
+    top:50%;
+    left:50%;
+    color: rgba(33, 32, 30, 0.785);
+    margin-bottom: 20px;
+}
+#button1{
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    background: linear-gradient(135deg, #7e89ff 0%, #ff758c 100%);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+#button2{
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    background: linear-gradient(135deg, #7e89ff 0%, #ff758c 100%);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#button3{
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    background: linear-gradient(135deg, #7e89ff 0%, #ff75d6 100%);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#save{
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    background: linear-gradient(135deg, #ff9c7e 0%, #75ff9a 100%);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+Button:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+#Button:active {
+    transform: scale(0.95); /* Shrinks when clicked */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
