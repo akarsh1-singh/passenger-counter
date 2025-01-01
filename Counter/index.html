@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="overlay"></div>
+        <div id="counter">
+            <div id="part1">
+                <h1>Row Counter</h1>
+            </div>
+            <h2 id="count-el">0</h2>
+            <div id="part2">
+                <button id="button1" onclick="increment()">Increment</button>
+                <button id="button2" onclick="reset()">Reset</button>
+                <button id="button3" onclick="decrement()">Decrement</button>
+            </div>
+            <div id="part3">
+                <p id="save-el">Previous Enteries :</p>
+            </div>
+            <button id="save" onclick="save()">SAVE</button>
+        </div>
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
